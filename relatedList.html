@@ -1,0 +1,9 @@
+<template>
+    <lightning-datatable
+        data={relatedRecords} 
+        columns={datatableColumns}
+        key-field="id"
+        hide-checkbox-column="true"
+        onsave={handleSave}>
+    </lightning-datatable>
+</template>
